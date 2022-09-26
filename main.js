@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){const e=document.createElement("h1"),n=document.getElementById("content");e.innerHTML="Restaurant Epicurean",n.appendChild(e)}()})();
