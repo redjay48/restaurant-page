@@ -1,3 +1,3 @@
-import intro from "./module1";
+import intro from "./tab1.js";
 
 intro();
