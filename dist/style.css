@@ -33,13 +33,25 @@ h1 {
     background-color: rgb(197, 204, 211);
 }
 
-main {
+#main {
     background-color: aliceblue;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .template {
+    margin: 40px;
     background-color: rgb(109, 109, 192);
+    text-align: center;
+    font-size: 26px;
+    color: antiquewhite;
+    border-radius: 12px;
+}
+
+.restImg {
+    border-radius: 12px 12px 0px 0px;
 }
 
 #content {
