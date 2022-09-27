@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 200px;
+    background-color: rgb(32, 32, 97);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 64px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+#buttons>button {
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border: 0;
+}
+
+#buttons>button:hover {
+    background-color: rgb(197, 204, 211);
+}
+
+main {
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+
+.template {
+    background-color: rgb(109, 109, 192);
+}
+
+#content {
+    color: aquamarine;
+    margin: 0;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(106, 106, 172);
+    margin-bottom: 0;
+}
