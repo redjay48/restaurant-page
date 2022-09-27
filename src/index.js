@@ -1,4 +1,4 @@
-import intro, {home} from "./tab1.js";
+import intro, {home, toggle} from "./tab1.js";
 
 intro();
 
@@ -17,7 +17,13 @@ function addButton() {
     buttons.appendChild(tabTwo);
     buttons.appendChild(tabThree);
 
+    tabOne.addEventListener('click', home);
+
 }
+
+
+
+
 
 
 
