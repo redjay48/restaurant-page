@@ -34,10 +34,12 @@ export function home() {
     divTwo.appendChild(restTwo);
     divTwo.appendChild(descriptTwo);
 
-    if(main.children.length === 0) {
+    if(main.children[0] !== homeDiv && main.children.length === 1) {
+        main.removeChild(main.children[0]);
         main.appendChild(homeDiv);
-    } else {
-        main.removeChild(homeDiv);
+    } 
+    else if(!main.children[0]) {
+        main.appendChild(homeDiv);
     }
 
 }
