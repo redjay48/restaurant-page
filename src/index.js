@@ -1,5 +1,6 @@
-import intro, {home, toggle} from "./tab1.js";
+import intro, {home} from "./tab1.js";
 import menu from "./tab2.js";
+import contact from "./tab3.js";
 
 intro();
 
@@ -20,6 +21,7 @@ function addButton() {
 
     tabOne.addEventListener('click', home);
     tabTwo.addEventListener('click', menu);
+    tabThree.addEventListener('click', contact);
 
 }
 
